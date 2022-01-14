@@ -83,7 +83,7 @@ const turnoComputadora = (puntosMinimos) => {
         }
 
 
-    } while (puntosComputadora < puntosMinimos) && (puntosMinimos <= 21);
+    } while ((puntosComputadora < puntosMinimos) && (puntosMinimos <= 21));
 
     setTimeout(() => {
 
